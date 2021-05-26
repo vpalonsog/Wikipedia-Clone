@@ -1,0 +1,280 @@
+body,
+h3,
+a,
+figure {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #54595d;
+}
+
+main {
+    height: 100vh;
+}
+
+.logo figure img {
+
+    margin-bottom: 14px;
+}
+
+main p {
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: Libertine, Georgia, Times, serif
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_img {
+    width: 180px;
+
+}
+
+.logo-slogan {
+    margin-top: -10px;
+}
+
+.wikipedia_world {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 100px repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 546px;
+    margin: 0 auto;
+    column-gap: 50px;
+    justify-items: center;
+    grid-template-areas: " . idiomEs idiomEs . . idiomEn idiomEn . . "
+        "idiomCn1 idiomCn1 . world world world idiomDe idiomDe . "
+        "idiomPy idiomPy . world world world  idiomFr idiomFr idiomFr"
+        "idiomIt idiomIt .  world world world  idiomCn2 idiomCn2 . "
+        " .  idiomPt idiomPt . . idiomPo idiomPo . . ";
+}
+
+.idiom1,
+.idiom2,
+.idiom3,
+.idiom4,
+.idiom5,
+.idiom6,
+.idiom7,
+.idiom8,
+.idiom9,
+.idiom10 {
+    margin: 10px;
+    width: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.wikipedia_world figure {
+
+    grid-area: world;
+    width: 200px;
+    margin: 0;
+    margin-left: -25px;
+
+}
+
+.wikipedia_world figure img {
+    width: 100%;
+}
+
+main h3 {
+    color: #3366cc;
+    font-size: 15px;
+}
+
+main h3:hover {
+    text-decoration: underline;
+}
+
+.idiom1 {
+    grid-area: idiomEs;
+}
+
+.idiom2 {
+    grid-area: idiomCn1;
+}
+
+.idiom3 {
+    grid-area: idiomPy;
+}
+
+.idiom4 {
+    grid-area: idiomIt;
+}
+
+.idiom5 {
+    grid-area: idiomPt;
+}
+
+.idiom6 {
+    grid-area: idiomEn;
+}
+
+.idiom7 {
+    grid-area: idiomDe;
+}
+
+.idiom8 {
+    grid-area: idiomFr;
+}
+
+.idiom9 {
+    grid-area: idiomCn2;
+}
+
+.idiom10 {
+    grid-area: idiomPo;
+}
+
+.container-search {
+    margin-top: 20px;
+}
+
+.container-search select {
+    border: none;
+    margin-right: 13px;
+    color: #4B4453
+}
+
+.wiki-search {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #D5CABD;
+    margin: 0 auto;
+    width: 460px;
+    height: 40px;
+}
+
+.wiki-search:hover {
+    border: 2px solid #36c;
+}
+
+.wiki-search input {
+    width: 360px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.wiki-search span {
+    margin: 6px 2px 5px 5px;
+    padding: 5px;
+    font-size: 13px;
+    color: #4B4453;
+}
+
+.wiki-search span select {
+    align-items: center;
+}
+
+.wiki-search button {
+
+    width: 65px;
+    height: 41px;
+    color: aliceblue;
+    background-color: #36c;
+    border: none;
+}
+
+.wiki-container {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #B0A8B9;
+    height: 350px;
+}
+
+.wiki-left {
+    margin-top: 25px;
+}
+
+.left1 figure img,
+.left2 figure img {
+    margin-right: 5px;
+}
+
+.left1 {
+    display: flex;
+
+}
+
+.left2 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.information {
+    width: 300px;
+    height: 80px;
+}
+
+.wiki-right {
+    width: 700px;
+    margin-left: 100px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.row2,
+.row3,
+.row4 {
+    margin-top: 30px;
+}
+
+
+
+.element1,
+.element2,
+.element3 {
+    display: flex;
+}
+
+
+.element1 figure img,
+.element2 figure img,
+.element3 figure img {
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+
+
+.element1 h5,
+.element2 h5,
+.element3 h5 {
+    margin: 6px
+}
